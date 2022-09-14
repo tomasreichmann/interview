@@ -1,0 +1,49 @@
+.Vehicles {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Vehicle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__premium {}
+  &_nation {
+  }
+
+  &_flag {
+    &__czech {
+
+      /* 29x18 /czech.png */
+    }
+  }
+  &_type {
+    &_icon {
+      /* 11x13 /lighttank.svg */
+      &__lighttank {
+      }
+      /* 12x15 /mediumtank.svg */
+      &__mediumtank {
+      }
+      /* 12x15 /mediumtank.svg */
+      &__mediumtank-prem {
+      }
+      /* 15x18 /heavytank.svg */
+      &__heavytank-prem {
+      }
+    }
+  }
+  &_tier {
+    &_text {
+    }
+  }
+  &_title {
+    
+  }
+  &_shape {
+  }
+  &_name {
+  }
+}
